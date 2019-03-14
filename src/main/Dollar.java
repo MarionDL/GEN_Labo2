@@ -6,11 +6,15 @@ public class Dollar extends Money {
         super(amount, currency);
     }
 
+    static Money dollar(int amount) {
+        return new Money(amount, "USD");
+    }
+
     String currency() {
         return currency;
     }
 
     public Money times(int multiplier) {
-        return Money.dollar(amount * multiplier);
+        return new Money(amount * multiplier, currency);
     }
 }
