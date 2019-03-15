@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8919cfe-1eb9-4cdc-bc18-4bb002aee6b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MoneyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sum.java" afterDir="false" />
     </list>
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2088#2089#0" expanded="true" />
@@ -69,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -115,11 +111,11 @@
         <option value="$PROJECT_DIR$/src/main/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/Expression.java" />
-        <option value="$PROJECT_DIR$/src/main/Sum.java" />
         <option value="$PROJECT_DIR$/src/main/Money.java" />
         <option value="$PROJECT_DIR$/src/main/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Sum.java" />
       </list>
     </option>
   </component>
@@ -173,7 +169,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552640001406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552640397095" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -205,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest">
+  <component name="RunManager" selected="JUnit.MoneyTest.testMixedAddition">
     <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GEN_Labo2" />
       <extension name="coverage">
@@ -269,7 +265,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testMixedAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GEN_Labo2" />
       <extension name="coverage">
         <pattern>
@@ -279,7 +275,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="main" />
       <option name="MAIN_CLASS_NAME" value="main.MoneyTest" />
-      <option name="METHOD_NAME" value="testEquality" />
+      <option name="METHOD_NAME" value="testMixedAddition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyTest.testMixedAddition" />
         <item itemvalue="JUnit.MoneyTest" />
         <item itemvalue="JUnit.MoneyTest.testArrayEquals" />
         <item itemvalue="JUnit.MoneyTest.testDifferentClassEquality" />
         <item itemvalue="JUnit.MoneyTest.testCurrency" />
-        <item itemvalue="JUnit.MoneyTest.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -310,14 +306,11 @@
       <workItem from="1552144418921" duration="4321000" />
       <workItem from="1552225405485" duration="30000" />
       <workItem from="1552551758291" duration="1511000" />
-      <workItem from="1552638914431" duration="1076000" />
+      <workItem from="1552638914431" duration="1452000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest_testCurrency - 2019.03.14 at 15h 41m 50s.xml">
-      <configuration name="MoneyTest.testCurrency" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest_testDifferentClassEquality - 2019.03.14 at 16h 04m 22s.xml">
       <configuration name="MoneyTest.testDifferentClassEquality" configurationId="JUnit" />
     </history-entry>
@@ -345,9 +338,12 @@
     <history-entry file="MoneyTest - 2019.03.15 at 09h 52m 08s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MoneyTest_testMixedAddition - 2019.03.15 at 09h 58m 39s.xml">
+      <configuration name="MoneyTest.testMixedAddition" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20670000" />
+    <option name="totallyTimeSpent" value="21046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -399,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -439,13 +428,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2088#2089#0" expanded="true" />
             <element signature="e#2118#2119#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
         </state>
       </provider>
     </entry>
